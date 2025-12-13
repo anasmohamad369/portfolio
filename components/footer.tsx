@@ -4,6 +4,7 @@ import Link from "next/link"
 import { motion } from "framer-motion"
 import { Github, Linkedin, Twitter, Mail, Heart, ArrowUpRight } from "lucide-react"
 import { personalInfo } from "@/lib/data"
+import { ActiveVisitors } from "@/components/active-visitors"
 
 const footerLinks = {
   navigation: [
@@ -102,18 +103,20 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            &copy; {currentYear} {personalInfo.name}. Built with
-            <Heart className="h-3 w-3 text-red-500 fill-red-500" />
-            using Next.js
+            &copy; {currentYear} {personalInfo.name}
+           
           </p>
-          <p className="text-sm text-muted-foreground">
-            <span className="inline-flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              Available for new opportunities
-            </span>
-          </p>
+          <div className="flex flex-col sm:items-end gap-2">
+            <p className="text-sm text-muted-foreground">
+              <span className="inline-flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                Available for new opportunities
+              </span>
+            </p>
+            <ActiveVisitors />
+          </div>
         </div>
       </div>
-    </footer>
+    </footer >
   )
 }

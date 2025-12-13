@@ -68,7 +68,7 @@ export function HeroSection() {
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link href="/resume">
+              <Link href="/Resume.pdf" target="_blank" rel="noopener noreferrer" download>
                 <Button size="lg" variant="outline" className="border-border hover:bg-secondary group bg-transparent">
                   <Download className="mr-2 h-4 w-4" />
                   Download Resume
