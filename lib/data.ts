@@ -1,6 +1,7 @@
 export const personalInfo = {
   name: "Mohamad Anas",
   title: "Full Stack Developer",
+  avatar: "/placeholder.jpeg",
   taglines: ["Full Stack Developer", "API Integrations", "Realtime Systems", "MERN + Next.js"],
   about:
     "I build accessible, pixel-perfect digital experiences for the web. Currently building scalable applications with focus on real-time features, admin dashboards, and seamless API integrations.",
