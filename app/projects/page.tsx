@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils"
 
 const categories = ["All", "Real-time", "Web Apps", "Dashboards", "MERN"]
 
-export default function ProjectsPage() {
+export default function   ProjectsPage() {
   const [activeCategory, setActiveCategory] = useState("All")
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid")
 

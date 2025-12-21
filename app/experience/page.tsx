@@ -62,7 +62,7 @@ export default function ExperiencePage() {
             {[
               { label: "Years Experience", value: "1+" },
               { label: "Projects Delivered", value: "15+" },
-              { label: "Companies", value: "3" },
+              { label: "Companies", value: "1" },
               { label: "Technologies", value: "20+" },
             ].map((stat) => (
               <div key={stat.label} className="glass-card p-4 rounded-xl text-center">
