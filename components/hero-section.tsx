@@ -103,8 +103,7 @@ export function HeroSection() {
             </motion.div>
           </div>
 
-          {/* Image Column */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -115,11 +114,10 @@ export function HeroSection() {
                 src={personalInfo.avatar}
                 alt={personalInfo.name}
                 className="w-full h-full object-cover"
-              />x
-              {/* Overlay or effect can go here */}
+              />xdlkcnm'c
               <div className="absolute inset-0 bg-linear-to-tr from-primary/20 to-transparent pointer-events-none" />
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
 

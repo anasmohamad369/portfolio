@@ -74,6 +74,8 @@ export const projects = [
     github: "https://github.com",
     live: "https://user.ryzer.app",
     role: "Full Stack Developer at Ryzer",
+        comingsoon : false
+
   },
   {
     id: 2,
@@ -86,6 +88,8 @@ export const projects = [
     github: "https://github.com",
     live: "https://admin.ryzer.app",
     role: "Full Stack Developer at Ryzer",
+        comingsoon : false
+
   },
   {
     id: 3,
@@ -98,6 +102,7 @@ export const projects = [
     github: "https://github.com",
     live: "https://1xfinance.com",
     role: "Freelance Developer (MVP)",
+    comingsoon : false
   },
   {
     id: 4,
@@ -110,6 +115,7 @@ export const projects = [
     github: "https://github.com",
     live: "https://example.com",
     role: "Full Stack Developer",
+    comingsoon : true
   },
   {
     id: 5,
@@ -121,6 +127,8 @@ export const projects = [
     github: "https://github.com",
     live: "https://example.com",
     role: "Full Stack Developer",
+        comingsoon : true
+
   },
   {
     id: 6,
@@ -133,7 +141,33 @@ export const projects = [
     github: "https://github.com",
     live: "https://example.com",
     role: "Full Stack Developer",
+        comingsoon : true
+
   },
+
+ {
+  id: 7,
+  name: "Restaurant Billing & Token Printing System",
+  description:
+    "A local restaurant billing system that stores orders in MongoDB and automatically prints order tokens using a thermal printer via ESC/POS USB integration when an order is placed.",
+  image: "/reasturant.png",
+  technologies: [
+    "Next.js",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "ESC/POS",
+    "escpos-usb",
+    "Thermal Printer"
+  ],
+  category: "Web Apps",
+  github: "https://github.com",
+  live: "",
+  role: "Full Stack Developer",
+}
+
+
+  
 ]
 
 export const skills = {
