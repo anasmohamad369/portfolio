@@ -8,14 +8,13 @@ import { ActiveVisitors } from "@/components/active-visitors"
 
 const footerLinks = {
   navigation: [
-    { label: "Home", href: "/" },
-    { label: "Projects", href: "/projects" },
-    { label: "Skills", href: "/skills" },
-    { label: "Experience", href: "/experience" },
+    { label: "Home", href: "#home" },
+    { label: "Projects", href: "#projects" },
+    { label: "Skills", href: "#skills" },
+    { label: "Experience", href: "#experience" },
   ],
   resources: [
-    { label: "Contact", href: "/contact" },
-    { label: "Resume", href: "/resume" },
+    { label: "Contact", href: "#contact" },
   ],
 }
 
