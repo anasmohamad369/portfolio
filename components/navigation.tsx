@@ -71,12 +71,10 @@ export function Navigation() {
       )}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <Link href="#home" onClick={(e) => scrollToSection(e, "#home")} className="relative group">
           <span className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
             {personalInfo.name.split(" ")[0]}
             <span className="text-primary">.</span>
           </span>
-        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
