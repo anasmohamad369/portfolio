@@ -15,19 +15,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon.png",
+        url: "/icon.svg",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon.png",
+        url: "/icon.svg",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.png",
-        type: "image/png+xml",
-      },
+        url: "/icon.svg",
+        type: "image/svg+xml" ,
+      }, 
     ],
-    apple: "/icon.png",
+    apple: "/icon.svg",
   },
 }
 
