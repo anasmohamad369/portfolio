@@ -101,7 +101,7 @@ export function Navigation() {
         </nav>
 
         <div className="hidden md:flex items-center gap-2">
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
           <Link href={personalInfo.social.github} target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="icon" className="hover:text-primary">
               <Github className="h-5 w-5" />
